@@ -1,0 +1,120 @@
+body html{
+    padding: 0rem;
+    margin: auto;
+    height: 100vh;
+    justify-content: center;
+}
+
+.allMenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto 10%;
+    padding: 0 1em;
+}
+
+.menuChart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 48%;
+    margin-bottom: 2rem;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+}
+
+.mealDetail{
+padding-left: 1rem;
+display: block;
+height: auto;
+word-spacing: 4px;
+max-width: 50%;
+}
+
+.mealDetail h3{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px dotted grey;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    word-spacing: 8px;
+    color: rgb(51, 49, 49);
+}
+
+
+.prices{color: burlywood;
+    font-weight: bold;
+    color: rgb(173, 124, 60);
+}
+
+.imgdiv{
+position: relative;
+max-width:16rem; 
+height: 175px;
+padding: 0.7rem;
+}
+
+.imgSet{
+    border: 5px solid rgb(167, 129, 80);
+    border-radius: 5px;
+    display: block;  
+    width: 16rem;
+    height: 175px;
+    object-fit: cover; 
+    transition: 0.4s ease;
+}
+
+.imgSet:hover
+{
+   border:2px solid rgb(167, 129, 80);
+   transform: scale(1.1);
+   cursor: pointer;
+}
+
+.details{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgb(131, 133, 133);
+    line-height: 25px;
+    text-align: justify;
+}
+
+.details p{
+    margin-bottom: 1.25rem;
+    width:auto;
+}
+
+
+/* Navbar css */
+
+.navbar{
+    padding-top: 40px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar button{
+background-color: transparent;
+margin-right: 15px ;
+font-size: 18px;
+border: transparent;
+border-radius: 4px;
+transition: 0.3s ease-in-out;
+padding-top:3px ;
+padding-bottom:3px;
+cursor: pointer;
+color: rgb(201, 153, 90);
+font-weight: lighter;
+}
+
+.navbar button:hover{
+    background-color: burlywood;
+    color: white;
+}
+
