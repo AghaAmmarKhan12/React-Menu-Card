@@ -16,7 +16,6 @@ console.log(result)
 
   return (
 <>
-  
 <div className='navbar'>
       <button onClick={()=>setData(MenuData)}>All</button>
       <button onClick={()=>FilterResult('Breakfast')}>Breakfast</button>
